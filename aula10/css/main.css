@@ -62,6 +62,7 @@ section, .divisoria nav {
     flex-direction:row;
     padding-left: 0;
     list-style: none;
+    justify-content: space-between;
 }
 .divisoria li {
     padding:10px 20px; 
@@ -83,6 +84,10 @@ main section {
 
 .box {
     width: 270px;
+    margin: 15px;
+    position: relative;
+    border: 5px solid;
+    border-color: rgb(195, 195, 195);
 }
 
 .box figure {
@@ -91,12 +96,14 @@ main section {
     position: relative;
 }
 
+
 .box figcaption{
     position:absolute;
     bottom:-5px;
     width:100%;
     padding:5px 5px 15px;
-    text-align: center;
+    text-align: justify;
+    font-weight: bold;
     background: rgba(0,0,0,0.8); 
     color: #fff;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 55% 75%, 50% 100%, 45% 75%, 0% 75%);
@@ -104,8 +111,70 @@ main section {
 
 .box img {
     width:inherit;
+    height: 168px;
 }
 
 .box p {
     font-size:0.8em;   
+}
+
+.box button {
+    background-color: rgb(246,94,0);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 425px;    
+}
+
+footer {
+    background-color: rgb(13,31,41);
+    color: white;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+fieldset {
+    border: none;
+}
+
+input, textarea {
+    width: 300px;
+    height: 40px;
+}
+
+input, textarea, table {
+    background-color: rgb(1, 17, 23);
+}
+
+footer button {
+    background-color: rgb(246,94,0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.social-media img {
+    width:50px;
+    height: 50px;
+}
+
+footer div {
+    width: 350px;
+    box-sizing: border-box;
+    margin: 20px;
+    border-right: 3px rgb(1,17,23) solid;
+}
+
+footer div:last-child {
+    border: none;
+}
+
+footer p {
+    font-size: smaller;
+    text-align: justify;
 }
