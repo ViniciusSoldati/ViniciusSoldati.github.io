@@ -1,0 +1,22 @@
+body{
+    padding: 20px;
+}
+#Praia {
+	position: absolute;
+    right: 640px; 
+	}
+div{
+    text-align: justify;
+}
+body{
+    border: 1px solid black;
+}
+.População{
+    color: blue;
+}
+.Religião{
+    color: blue;
+}
+.Idioma{
+    color: blue;
+}

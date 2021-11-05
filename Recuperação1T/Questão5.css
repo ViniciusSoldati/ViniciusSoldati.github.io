@@ -1,0 +1,41 @@
+body {
+    background-image: url("fundopalha.jpg");
+}
+main {
+    background-color: white;
+    padding: 30px;
+}
+h2 {
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+}
+#bandeira {
+    position: absolute;
+    top: 48px;
+    right: 100px;
+}
+#Praia {
+	position: absolute;
+    right: 640px; 
+    bottom: 220px;
+}
+figcaption {
+    font-style: italic;
+    font-weight: bold;
+    position: relative;
+    left: 450px;
+    bottom: -210px;
+}
+p {
+    text-align: justify;
+}
+.População{
+    color: blue;
+}
+.Religião{
+    color: blue;
+}
+.Idioma{
+    color: blue;
+}

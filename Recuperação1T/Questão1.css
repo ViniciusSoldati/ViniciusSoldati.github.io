@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    font-weight: bold;
+}
+.gray{
+    background-color: rgb(184, 184, 184);
+}
+.lightgray {
+    background-color: rgb(204, 204, 204);
+}
